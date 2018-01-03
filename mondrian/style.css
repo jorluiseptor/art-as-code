@@ -10,8 +10,10 @@
     display: grid;
     max-width: 400px;
 }
-.canvas div {
+.tile {
     border: 4px solid #060607;
+    transition: background-color 0.5s ease;
+    cursor: move;
 }
 .color1 {
     background-color: #cfd7ee; 
